@@ -425,3 +425,99 @@ button {
     line-height: 38px;
     margin: 0 auto 88px auto;
 }
+.the-block-text h3 {
+    width: 183px;
+    color: #FFF;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.the-block-text h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0 5px 0;
+}
+.the-block-text h5 {
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.the-block-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: .8s;
+
+
+
+    width: 251px;
+    height: 452px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 31.25%, #000 100%);
+}
+.the-block {
+    position: relative;
+
+}
+.the-block:hover > .the-block-text {
+    opacity: 1;
+}
+.the-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*offer start*/
+#offer {
+    padding: 180px 0;
+    background: #121118;
+}
+.offer h4 {
+    color: #8BFFB0;
+    font-size: 22px;
+    font-weight: 400;
+}
+.offer h1 {
+    padding: 21px 0 32px 0;
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 400;
+    width: 787px;
+}
+
+.offer p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 27px;
+    font-weight: 400;
+    width: 870px;
+}
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.offer-img {
+    animation: offerimg 2s infinite linear;
+    padding-top: 70px;
+}
+@keyframes offerimg {
+    0% {
+        opacity: 0;
+    }
+}
+
+/*offer end*/
