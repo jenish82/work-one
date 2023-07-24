@@ -698,6 +698,34 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+/*footer end*/
 
 
-/*block end*/
+/*footer start*/
+#footer {
+    padding: 117px 0;
+    background: #000;
+}
+.footer-text h1 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+.footer-text h4 {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+    padding: 3px 0;
+ }
+.footer-icons a {
+    color: #FFFFFF;
+    font-size: 28px;
+    padding: 0 5px;
+}
+.footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+/*camp end*/
